@@ -6,13 +6,13 @@ The Assignment has 2 questions, one deals with the Seq2Seq model to implement an
 
 ## Question 1
 For the first question, Dakshina Dataset has to be downloaded and then uploaded to the Google Drive and it can accessed from there by the following code:
-'''python 
+
+```python 
 from google.colab import drive
 drive.mount('/content/drive')
 
 file_path = '/content/drive/MyDrive/dakshina_dataset_v1.0.tar' 
-
-
+```
 
 
 
