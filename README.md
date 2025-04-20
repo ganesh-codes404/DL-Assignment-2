@@ -4,6 +4,7 @@ Roll No: 1601-22-737-176
 
 ## Notebook Links
 Question 1: https://colab.research.google.com/drive/1kmOb3LgviXBVvOIln6hpU12u3seWbZAe?usp=sharing
+
 Question 2 : https://colab.research.google.com/drive/1tdQ72kegxUVTS5BjlYDbN38qOwMCDUfM?usp=sharing  
 
 The Assignment has 2 questions, one deals with the Seq2Seq model to implement and train the model on the Dakshina Dataset, the other question deals with fine tuning the GPT-2 Model to generate lyrics(used HuggingFace to utilize the model)
