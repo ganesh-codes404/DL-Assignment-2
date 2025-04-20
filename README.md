@@ -29,8 +29,23 @@ Because you call build_model(cell_type='LSTM',…), you’re using LSTM cells in
 **More than 2 Lakh computations and trainable parameters will be there**
 
 ## Question 2
+The dataset is from Kaggle https://www.kaggle.com/paultimothymooney/poetry, the process for reading the dataset is the same as the previous question
 
+All poem/lyric files are read into a single list and used to create a Hugging Face Dataset.
 
+Model and Tokenization
 
+Model: GPT-2 from Hugging Face's model hub.
+Tokenizer: GPT2Tokenizer with the pad_token set as the eos_token (since GPT-2 doesn't include a padding token by default).
+The model is fine-tuned using masked language modeling with tokenized lyric text.
+
+Running the Script
+
+Ensure you have the required libraries installed.
+Run the script in a cloud-based platform with GPU enabled so that it runs very quickly.
+
+## Conclusion
+
+This Assignment demonstrates fine-tuning GPT-2 to generate song lyrics based on a given prompt, as well as the training of a Seq2Seq model for sequence generation tasks using the Dakshina dataset.
 
 
