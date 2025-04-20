@@ -2,7 +2,7 @@
 Roll No: 1601-22-737-176
 
 
-## Notebook Links
+## Colab Notebook Links
 Question 1: https://colab.research.google.com/drive/1kmOb3LgviXBVvOIln6hpU12u3seWbZAe?usp=sharing
 
 Question 2 : https://colab.research.google.com/drive/1tdQ72kegxUVTS5BjlYDbN38qOwMCDUfM?usp=sharing  
