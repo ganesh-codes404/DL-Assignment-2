@@ -55,4 +55,4 @@ temperature: 1.0
 repetition_penalty: 1.2
 
 
-
+**There is some sort of issue with the notebook, this is the notebook link( https://colab.research.google.com/drive/1tdQ72kegxUVTS5BjlYDbN38qOwMCDUfM?usp=sharing )**
