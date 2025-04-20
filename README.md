@@ -24,7 +24,13 @@ Takes the target token sequence (shifted one step) as input \
 Embeds each token into the same-sized vectors \
 Feeds these, along with the encoder’s final state(s), into another RNN layer (again, by default an LSTM) to produce a sequence of decoder hidden states \
 Projects each decoder hidden state through a Dense+softmax over your output vocabulary \
-Because you call build_model(cell_type='LSTM',…), you’re using LSTM cells in both the encoder and decoder. If you passed cell_type='GRU' or 'SimpleRNN', it would swap to those, instead, but the overall pattern remains a standard encoder‑decoder with an embedding layer → RNN layer → dense output.
+Because you call build_model(cell_type='LSTM',…), you’re using LSTM cells in both the encoder and decoder. If you passed cell_type='GRU' or 'SimpleRNN', it would swap to those, instead, but the overall pattern remains a standard encoder‑decoder with an embedding layer → RNN layer → dense output. \
+
+**More than 2 Lakh computations and trainable parameters will be there**
+
+## Question 2
+
+
 
 
 
