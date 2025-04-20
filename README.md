@@ -15,7 +15,7 @@ file_path = '/content/drive/MyDrive/dakshina_dataset_v1.0.tar'
 ```
 From here on we can build our model and answer the quesitons, in code the it is a sequence‑to‑sequence (seq2seq) encoder–decoder architecture, where:
 
-Encoder
+Encoder,\
 Takes your input token sequence
 Embeds each token into a dense vector of size embedding_dim
 Feeds the embeddings into an RNN layer (by default an LSTM) to produce a final hidden (and, for LSTM, cell) state
