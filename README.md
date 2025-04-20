@@ -1,6 +1,8 @@
 # Deep Learning Assignment-2 
 Roll No: 1601-22-737-176
-**There is some sort of issue with the notebook of the 2nd Question, this is the notebook link( https://colab.research.google.com/drive/1tdQ72kegxUVTS5BjlYDbN38qOwMCDUfM?usp=sharing )** \
+
+
+**There is some sort of issue with the notebook of the 2nd Question, this is the notebook link( https://colab.research.google.com/drive/1tdQ72kegxUVTS5BjlYDbN38qOwMCDUfM?usp=sharing )** 
 
 The Assignment has 2 questions, one deals with the Seq2Seq model to implement and train the model on the Dakshina Dataset, the other question deals with fine tuning the GPT-2 Model to generate lyrics(used HuggingFace to utilize the model)
 
